@@ -1,0 +1,119 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #3B3F45;
+}
+
+.header {
+    margin: 0 auto;
+    text-align: center;
+    height: 82px;
+    background: #4A4F56;
+    color: #FF8984;
+}
+
+.title {
+    padding-top: 19px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    align-items: center;
+}
+
+.text {
+    padding-top: 4px;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+}
+
+.form {
+    list-style: none;
+    margin: 20px auto 0;
+    width: 534px;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+    height: 45px;
+}
+
+label:nth-child(odd) {
+    background-color: #7A7593;
+}
+
+label:nth-child(even) {
+    background-color: #88839E;
+}
+
+label:hover {
+    border-top: 3px solid #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
+    background: #625E77;
+    transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
+    -moz-transition: all .1s ease-in;
+    -ms-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+}
+
+label:active {
+    background: #FF8984;
+}
+
+.inner {
+    font-size: small;
+}
+
+.inner::before {
+    content: '(';
+}
+
+.inner::after {
+    content: ')';
+}
+input {
+    width: 19px;
+    height: 19px;
+    margin: 12px 16px 14px 12px;
+}
+
+input:checked ~ span {
+    text-decoration: line-through; 
+    color: #9B96AC;
+}
+
+.btn {
+    margin: 45px auto 0;
+    padding: 12px;
+    text-align: center;
+    width: 534px;
+    height: 45px;
+    background: #4A4F56;
+    border: none;
+    color: #FF8984;
+}
+
+.btn:hover {
+    border-top: 3px solid #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
+    background: #272829;
+    transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
+    -moz-transition: all .1s ease-in;
+    -ms-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+}
+
+.btn:active {
+    background: #FF8984; 
+    color: #FFFFFF;
+}
+
+.btn::after {
+    content: ':)';
+}
