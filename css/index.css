@@ -76,6 +76,7 @@ label:active {
 .inner::after {
     content: ')';
 }
+
 input {
     width: 19px;
     height: 19px;
@@ -83,9 +84,21 @@ input {
 }
 
 input:checked ~ span {
-    text-decoration: line-through; 
+    text-decoration: line-through;
     color: #9B96AC;
 }
+
+/* input[type="checkbox"] {
+    display: none;
+}
+
+ .new-checkbox {
+    display: block;
+    position: relative;
+    width: 19px;
+    height: 19px;
+    background: #FFFFFF;
+ } */
 
 .btn {
     margin: 45px auto 0;
@@ -110,7 +123,7 @@ input:checked ~ span {
 }
 
 .btn:active {
-    background: #FF8984; 
+    background: #FF8984;
     color: #FFFFFF;
 }
 
